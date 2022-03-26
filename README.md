@@ -1,8 +1,9 @@
 # Online Phone Shop
-Private Repo Link.\
-Click here to create private repo :
+[Private Repo Link](https://assignment-8-rishat.netlify.app/)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Click here to create private repo :https://github.com/Programming-Hero-Web-Course4/lucky-one-Rishat05
+
+
 
 ## Available Scripts
 
