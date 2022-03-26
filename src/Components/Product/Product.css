@@ -17,9 +17,15 @@
     border: none;
     background-color: #ffe0B3;
     border-radius:0 0 10px 10px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
 }
 .btn-cart:hover{
     background-color: lightsalmon;
+}
+.btn-text{
+ margin-right: 5px;
 }
 product-name{
     font-weight: 400;
