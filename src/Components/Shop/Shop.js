@@ -20,15 +20,17 @@ const Shop = () => {
         const check = cart.find(oldProduct => oldProduct.id === product.id)
 
         if (!check) {
-            const newCart = [...cart, product];
-            setcart(newCart);
+            if (cart.length < 4) {
+                const newCart = [...cart, product];
+                setcart(newCart);
+            }
         }
     }
 
     const handleOneItem = (product) => {
 
         const randomNumber = Math.floor(Math.random() * (cart.length - 1 - 0 + 1)) + 0;
-        console.log(randomNumber);
+        //console.log(randomNumber);
         setphone(cart[randomNumber]);
 
     }
@@ -39,7 +41,7 @@ const Shop = () => {
     }
 
     return (
-        <div>
+        <div className='shop'>
             <div className='shop-container'>
                 <div className="product-container">
                     {

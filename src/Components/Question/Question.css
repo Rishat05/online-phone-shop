@@ -3,3 +3,6 @@
    grid-template-columns: repeat(2,1fr);
    gap: 5px;
 }
+.question{
+    padding: 10px;
+}
