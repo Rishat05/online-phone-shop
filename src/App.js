@@ -1,10 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
+import Header from './Components/Header/Header';
+import Shop from './Components/Shop/Shop';
 
 function App() {
+
   return (
     <div className="App">
-      <h1>Online shop</h1>
+      <Header></Header>
+      <Shop></Shop>
     </div>
   );
 }

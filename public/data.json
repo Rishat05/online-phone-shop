@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "name": "Galaxy Tab S8 Ultra",
+        "img": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-tab-s8-ultra.jpg",
+        "price": "34000"
+    },
+    {
+        "id": 2,
+        "name": "Reno7 5G",
+        "img": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno7.jpg",
+        "price": "8900"
+    },
+    {
+        "id": 3,
+        "name": "Find X5",
+        "img": "https://fdn2.gsmarena.com/vv/bigpic/oppo-find-x5.jpg",
+        "price": "17840"
+    },
+    {
+        "id": 4,
+        "name": "Galaxy A03 Core",
+        "img": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a03-core.jpg",
+        "price": "29000"
+    },
+    {
+        "id": 5,
+        "name": "Pad",
+        "img": "https://fdn2.gsmarena.com/vv/bigpic/oppo-pad.jpg",
+        "price": "10300"
+    },
+    {
+        "id": 6,
+        "name": "iPhone 13 mini",
+        "img": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-13-mini.jpg",
+        "price": "35000"
+    },
+    {
+        "id": 7,
+        "name": "iPhone 12 Pro",
+        "img": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-12-pro--.jpg",
+        "price": "27500"
+    },
+    {
+        "id": 8,
+        "name": "nova 8 SE 4G",
+        "img": "https://fdn2.gsmarena.com/vv/bigpic/huawei-nova-8-se.jpg",
+        "price": "17700"
+    },
+    {
+        "id": 9,
+        "name": "Galaxy S22 5G",
+        "img": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s22-5g.jpg",
+        "price": "25700"
+    },
+    {
+        "id": 10,
+        "name": "nova 9 Pro",
+        "img": "https://fdn2.gsmarena.com/vv/bigpic/huawei-nova-9-pro-5g-.jpg",
+        "price": "22400"
+    },
+    {
+        "id": 11,
+        "name": "Y7a",
+        "img": "https://fdn2.gsmarena.com/vv/bigpic/huawei-p-smart-2021.jpg",
+        "price": "14800"
+    },
+    {
+        "id": 12,
+        "name": "A56 5G",
+        "img": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a56-5g.jpg",
+        "price": "1900"
+    }
+]
