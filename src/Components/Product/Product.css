@@ -1,5 +1,11 @@
+.product{
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    margin: auto;
+}
+
 product-name{
     font-weight: 400;
     font-size: 20px;
-    
+
 }
