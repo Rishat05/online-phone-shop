@@ -3,7 +3,8 @@ import React from 'react';
 const Header = () => {
     return (
         <div>
-            <h1>Online Mobile Shop by Rishat</h1>
+            <h1>Online Mobile Shop</h1>
+            <p>Choose 4 Phone</p>
         </div>
     );
 };

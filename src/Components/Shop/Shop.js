@@ -1,21 +1,42 @@
 import React, { useEffect, useState } from 'react';
+import Cart from '../Cart/Cart';
 import Product from '../Product/Product';
 import './Shop.css';
 const Shop = () => {
 
     const [products, setproducts] = useState([]);
     const [cart, setcart] = useState([]);
+    const [phone, setphone] = useState([]);
     useEffect(() => {
         fetch("data.json")
             .then(res => res.json())
             .then(data => setproducts(data));
     }, [])
 
+
     const handleAddToCart = (product) => {
-        console.log(product);
-        const newCart = [...cart, product];
-        setcart(newCart);
+        // console.log(product);
+        const check = cart.find(oldProduct => oldProduct.id === product.id)
+
+        if (!check) {
+            const newCart = [...cart, product];
+            setcart(newCart);
+        }
     }
+
+    const handleOneItem = (product) => {
+
+        const randomNumber = Math.floor(Math.random() * (cart.length - 1 - 0 + 1)) + 0;
+        console.log(randomNumber);
+        setphone(cart[randomNumber]);
+
+    }
+
+    const resetcart = (deleteAllCart) => {
+        setphone([]);
+        setcart([]);
+    }
+
     return (
         <div className='shop-container'>
             <div className="product-container">
@@ -29,8 +50,12 @@ const Shop = () => {
                 }
             </div>
             <div className="cart-container">
-                <p>This is cart container</p>
-                <p>name: {cart.length}</p>
+                <Cart
+                    cart={cart}
+                    handleOneItem={handleOneItem}
+                    phone={phone}
+                    resetcart={resetcart}
+                ></Cart>
             </div>
         </div>
     );

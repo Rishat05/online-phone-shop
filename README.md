@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# Online Phone Shop
+Private Repo Link.\
+Click here to create private repo :
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
