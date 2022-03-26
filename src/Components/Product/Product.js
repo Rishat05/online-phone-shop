@@ -8,10 +8,12 @@ const Product = (props) => {
             <div>
                 <img src={img} alt="" />
             </div>
-            <div>
+            <div className='product-info'>
                 <h3 className='product-name'>{name}</h3>
+                <p>id: {id}</p>
+                <p>Price: ${price}</p>
             </div>
-
+            <button className='btn-cart'><p>Add to Cart</p></button>
         </div>
     );
 };

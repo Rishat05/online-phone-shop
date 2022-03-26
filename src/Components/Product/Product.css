@@ -1,11 +1,27 @@
 .product{
     border: 1px solid lightgray;
-    border-radius: 8px;
-    margin: auto;
+    border-radius: 10px;
+   margin:auto;
+    
+}
+.product img{
+    padding: 20px;
+}
+.product-info{
+    padding: 10px;
+    margin-bottom: 8px;
 }
 
+.btn-cart{
+    width: 100%;
+    border: none;
+    background-color: #ffe0B3;
+    border-radius:0 0 10px 10px;
+}
+.btn-cart:hover{
+    background-color: lightsalmon;
+}
 product-name{
     font-weight: 400;
     font-size: 20px;
-
 }
